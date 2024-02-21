@@ -9,8 +9,8 @@ With this repository I will be collecting documentation for hands on projects I 
 
 # Projects
 - [CW Metric Filters](cloudwatch-metric-filters/README.md)
-- CW Subscription Filters
-- Stopping Starting EC2 with Lambda
+- [CW Subscription Filters](cloudwatch-subscription-filters/README.md)
+- [Stopping Starting EC2 with Lambda](lambda-start-stop-ec2/README.md)
 - RDS Cross Region Copy
 - VPC Flow Logs to CloudWatch
 - VPC Interface Endpoint SQS

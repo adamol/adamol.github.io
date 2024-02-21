@@ -6,11 +6,11 @@ To accomplish this we can use subscription filters.
 
 You apply the subscription filter to one or more log groups and using the filter syntax limit what information gets exported.
 
-In this article we’ll go through a simpler use case where we stream a single log group to AWS Firehose, but the setup is quite similar for cross account uses.
+In this project we’ll go through a simpler use case where we stream a single log group to AWS Firehose, but the setup is quite similar for cross account uses.
 
 We will be filtering for events of EC2 instances being stopped. This requires that you have CloudTrail active forwarding events to CloudWatch.
 
-See my article on CloudWatch Metric Filters for information on how to set this up.
+See my project on CloudWatch Metric Filters for information on how to set this up.
 
 # Architecture Overview
 
