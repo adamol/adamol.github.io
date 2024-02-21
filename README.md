@@ -1,0 +1,20 @@
+- SSM Automation Golden AMI
+- AWS Inspector
+- Access Analyzer
+- GuardDuty
+- ALB Logs
+- EC2 SQS Consumers Scale In Protection
+- EC2 SQS Consumers Auto Scaling
+- DDB Incremental Load to Data Lake
+- DDB Glue ETL Step Functions
+- DataSync
+- Volume Gateway
+- File Gateway
+- VPC Peering
+- VPC Gateway Endpoint S3/DDB
+- VPC Interface Endpoint SQS
+- VPC Flow Logs to CloudWatch
+- RDS Cross Region Copy
+- Stopping Starting EC2 with Lambda
+- CW Subscription Filters
+- CW Metric Filters
