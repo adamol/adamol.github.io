@@ -11,7 +11,8 @@ With this repository I will be collecting documentation for hands on projects I 
 - [CW Metric Filters](cloudwatch-metric-filters/README.md)
 - [CW Subscription Filters](cloudwatch-subscription-filters/README.md)
 - [Stopping Starting EC2 with Lambda](lambda-start-stop-ec2/README.md)
-- RDS Cross Region Copy
+- [RDS Cross Region Copy](rds-cross-region-copy/README.md)
+- [Debugging Event Driven Solutions](debugging-event-driven-solutions/README.md)
 - VPC Flow Logs to CloudWatch
 - VPC Interface Endpoint SQS
 - VPC Gateway Endpoint S3/DDB
