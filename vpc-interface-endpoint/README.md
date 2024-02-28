@@ -93,7 +93,7 @@ We will be skipping that for this tutorial, but just know that in that case we w
 
 Now we have everything in place to create our Endpoint to enable connection to our private instance.
 
-```
+```bash
 aws ec2 create-instance-connect-endpoint \
     --region eu-central-1 \
     --subnet-id $SUBNET_A \

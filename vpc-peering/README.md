@@ -57,7 +57,7 @@ aws ec2 create-tags --resources $INSTANCE_B --tags Key=Name,Value=InstanceB
 
 Just as a sanity check, let's make sure the connection is not yet working.
 
-![Ping doesnt work](./ping-doesnt-work.png)
+![Ping doesnt work](./screenshots/ping-doesnt-work.png)
 
 Ok, that's what we expected. Let's create our Peering Connection.
 
@@ -139,7 +139,7 @@ Finally, we're ready to test our solution.
 
 Log on to InstanceA again using EC2 Instance Connect and try using `ping` to reach the private IP of Instance B.
 
-![Pings succeeds](./screenshots/ping-sucess.png)
+![Pings succeeds](./screenshots/ping-success.png)
 
 It works! The packets reach our Route Table, get routed through the Peering Connection, reach Instance B, come back through the Route Table in VPC B, through the Peering Connection, and back to Instance A.
 

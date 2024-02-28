@@ -26,7 +26,7 @@ Furthermore, Bucket Policies and VPC Endpoint Policies restrict access.
 
 Assuming you've followed the steps in [part 1](../vpc-interface-endpoint/README.md), you should be connected to an instance launched in a private subnet without internet connectivity.
 
-![Instance has no internet connection](./screenhots/no-internet.png)
+![Instance has no internet connection](./screenshots/no-internet.png)
 
 # Creating an IAM Role for EC2
 
