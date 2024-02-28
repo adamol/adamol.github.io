@@ -1,12 +1,6 @@
 # Overview
 With this repository I will be collecting documentation for hands on projects I do with AWS.
 
-# Why are the projects using the AWS CLI?
-1. I enjoy working with the CLI
-2. Normally I would use IaC with either Terraform or CloudFormation, but since these are smaller one-time projects with no other contributors than myself, I am just a bit faster using the CLI.
-3. The CLI still provides reproducibility just like IaC, and should be pretty easy to translate to IaC if so desired.
-4. Using the console is too manual and not easily reproducible.
-
 # Projects
 - [CW Metric Filters](cloudwatch-metric-filters/README.md)
 - [CW Subscription Filters](cloudwatch-subscription-filters/README.md)
